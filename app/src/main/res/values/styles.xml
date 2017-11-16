@@ -7,5 +7,11 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name = "NotifyText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+
+
+    </style>
 
 </resources>

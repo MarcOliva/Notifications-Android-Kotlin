@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity(), Notifications {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         notification_normal_button.setOnClickListener({
-            showNotification(this,"Kotlin Notification","Prueba kotlin",android.R.drawable.ic_dialog_alert)
+            showNotificationWithIcon(this, "Kotlin Notification Normal", "Test kotlin", android.R.drawable.ic_dialog_alert)
         })
         notification_personalized_button.setOnClickListener({
-           var intent = Intent(this, NotificationPersonalizedActivity::class.java)
+            var intent = Intent(this, NotificationPersonalizedActivity::class.java)
             startActivity(intent)
         })
 

@@ -15,9 +15,9 @@ class IconsAdapter(context: Context) : BaseAdapter() {
         var imageView: ImageView
         if (convertView == null) {
             imageView = ImageView(mContext)
-            imageView.layoutParams = ViewGroup.LayoutParams(240,480)
-            imageView.scaleType = ImageView.ScaleType.CENTER_CROP
-            imageView.setPadding(8, 8, 8, 8)
+            imageView.layoutParams = ViewGroup.LayoutParams(240, 240)
+            imageView.scaleType = ImageView.ScaleType.CENTER
+
         } else {
             imageView = convertView as ImageView
         }
@@ -31,7 +31,7 @@ class IconsAdapter(context: Context) : BaseAdapter() {
     }
 
     override fun getItemId(p0: Int): Long {
-       return 0;
+        return 0;
     }
 
     override fun getItemViewType(position: Int): Int {

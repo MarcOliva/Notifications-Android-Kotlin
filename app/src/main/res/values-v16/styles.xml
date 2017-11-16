@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NotifyText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+</resources>

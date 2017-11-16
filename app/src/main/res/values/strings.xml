@@ -3,11 +3,11 @@
     <string name="notification_personalized">Notification Personalized</string>
     <string name="notification_normal">Notification Normal</string>
     <string name="title_text">Notification Title </string>
-    <string name="hint_title">Enter notification title</string>
+    <string name="hint_title">enter title</string>
     <string name="content_text">Notification Content</string>
-    <string name="hint_content">Enter content title</string>
+    <string name="hint_content">enter content</string>
     <string name="show_notification">Show Notification</string>
-
+    <!-- List icons name-->
     <string name="alert_notify">Alert </string>
     <string name="chat_notify">Chat </string>
     <string name="facebook_notify">Facebook</string>
